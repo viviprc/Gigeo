@@ -1,0 +1,28 @@
+/*Botones*/
+
+.section__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .section__buttons-boton {
+        font-family: $open-sans;
+        color: $blanco;
+        border-style: none;
+        width: 100px;
+        height: 40px;  
+        margin: 10px;
+    }
+}
+.primero {
+    background-color: $turquesa;
+}
+.segundo {
+    background-color: $rosa-oscuro;
+}
+
+@media (max-width: 768px) {
+    .section__buttons {
+        display: none;
+    }
+    
+}
