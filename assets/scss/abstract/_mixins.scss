@@ -5,3 +5,17 @@
     font-weight: $bold;
     color: $negro;  
 }
+
+@mixin fotos-lg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;   
+}
+
+@mixin fotos-xs {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;   
+}

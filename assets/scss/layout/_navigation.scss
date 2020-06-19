@@ -12,13 +12,15 @@ nav {
     display: flex;
     justify-content: center;
 }
+
 .navbar {
-    padding: 0.5rem 2.3rem;
+    padding: 0.5rem 3.2rem;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
 }
+
 a .nav-link {
     padding: 8 20px;
 }
@@ -28,16 +30,20 @@ sup {
     vertical-align: top;
 }
 
-@media (min-width:992px) {
+@media (min-width: 576px) {
     .navbar {
-        padding: 0.5rem 5rem;
+        padding: 0.5rem 2rem;
     }
-
-}
 
 @media (min-width: 768px) {
     .navbar {
         padding: 0.5rem 3.2rem;
     }
+}
 
+@media (min-width:992px) {
+    .navbar {
+        padding: 0.5rem 7rem;
+    }
+}
 }

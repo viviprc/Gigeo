@@ -9989,8 +9989,16 @@ h5 {
   background-color: #80deea;
 }
 
+.primero:hover {
+  background-color: #5dc1b9;
+}
+
 .segundo {
   background-color: #ef5350;
+}
+
+.segundo:hover {
+  background-color: #fc1c32;
 }
 
 @media (max-width: 768px) {
@@ -10013,7 +10021,7 @@ nav {
 }
 
 .navbar {
-  padding: 0.5rem 2.3rem;
+  padding: 0.5rem 3.2rem;
 }
 
 .navbar-collapse {
@@ -10029,14 +10037,19 @@ sup {
   vertical-align: top;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .navbar {
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 2rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) and (min-width: 768px) {
   .navbar {
     padding: 0.5rem 3.2rem;
+  }
+}
+@media (min-width: 576px) and (min-width: 992px) {
+  .navbar {
+    padding: 0.5rem 7rem;
   }
 }
 /*Header*/
@@ -10052,7 +10065,10 @@ sup {
 section {
   display: flex;
   justify-content: space-between;
-  padding: 1.875rem 3.125rem;
+  padding: 1.875rem 3rem;
+}
+section .section__Yuki {
+  display: flex;
 }
 section .section__Yuki-photo {
   background-image: url(../images/profile-image.png);
@@ -10070,9 +10086,14 @@ section .section__Yuki-text {
   padding: 0 10px;
 }
 
+@media (min-width: 576px) {
+  section {
+    padding: 1rem 2rem;
+  }
+}
 @media (min-width: 992px) {
   section {
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 7rem;
   }
 }
 /*Main*/
@@ -10083,13 +10104,142 @@ main {
 }
 
 .main__grid-item {
-  padding: 1.2rem 3.75rem;
+  padding: 1.2rem 4.2rem;
   justify-content: space-around;
 }
 
-@media (min-width: 992px) {
+.grid-image1 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-1.png);
+}
+
+.grid-image2 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-2.png);
+}
+
+.grid-image3 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-3.png);
+}
+
+.grid-image4 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-4.png);
+}
+
+.grid-image5 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-5.png);
+}
+
+.grid-image6 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-6.png);
+}
+
+.grid-image7 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-7.png);
+}
+
+.grid-image8 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  background-image: url(../images/image-8.png);
+}
+
+@media (max-width: 575px) {
+  .grid-image1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-1.png);
+  }
+
+  .grid-image2 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-2.png);
+  }
+
+  .grid-image3 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-3.png);
+  }
+
+  .grid-image4 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-4.png);
+  }
+
+  .grid-image5 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-5.png);
+  }
+
+  .grid-image6 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-6.png);
+  }
+
+  .grid-image7 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-7.png);
+  }
+
+  .grid-image8 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/image-8.png);
+  }
+}
+@media (min-width: 576px) {
   main {
-    padding: 0.5rem 5rem;
+    padding: 2rem 2rem;
   }
 
   .main__grid-item {
@@ -10103,6 +10253,15 @@ main {
 
   .main__grid-item {
     padding: 1.2rem 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    padding: 0.5rem 7rem;
+  }
+
+  .main__grid-item {
+    padding: 1.2rem 1rem;
   }
 }
 

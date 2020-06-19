@@ -7,14 +7,86 @@ main {
 }
 
 .main__grid-item {
-    padding: 1.2rem 3.75rem;
+    padding: 1.2rem 4.2rem;
     justify-content: space-around;
 }
 
-@media (min-width: 992px) {
-    main {
-        padding: 0.5rem 5rem;
+.grid-image1 {
+    @include fotos-lg;
+    background-image: url(../images/image-1.png);
+}
+.grid-image2 {
+    @include fotos-lg;
+    background-image: url(../images/image-2.png);
+}
+.grid-image3 {
+    @include fotos-lg;
+    background-image: url(../images/image-3.png);
+}
+.grid-image4 {
+    @include fotos-lg;
+    background-image: url(../images/image-4.png);
+}
+.grid-image5 {
+    @include fotos-lg;
+    background-image: url(../images/image-5.png);
+}
+.grid-image6 {
+    @include fotos-lg;
+    background-image: url(../images/image-6.png);
+}
+.grid-image7 {
+    @include fotos-lg;
+    background-image: url(../images/image-7.png);
+}
+.grid-image8 {
+    @include fotos-lg;
+    background-image: url(../images/image-8.png);
+}
+
+@media (max-width: 575px) {
+    .grid-image1 {
+        @include fotos-xs;
+        background-image: url(../images/image-1.png);
     }
+    .grid-image2 {
+        @include fotos-xs;
+        background-image: url(../images/image-2.png);
+    }
+    .grid-image3 {
+        @include fotos-xs;
+        background-image: url(../images/image-3.png);
+    }
+    .grid-image4 {
+        @include fotos-xs;
+        background-image: url(../images/image-4.png);
+    }
+    .grid-image5 {
+        @include fotos-xs;
+        background-image: url(../images/image-5.png);
+    }
+    .grid-image6 {
+        @include fotos-xs;
+        background-image: url(../images/image-6.png);
+    }
+    .grid-image7 {
+        @include fotos-xs;
+        background-image: url(../images/image-7.png);
+    }
+    .grid-image8 {
+        @include fotos-xs;
+        background-image: url(../images/image-8.png);
+    }
+    
+
+
+}
+
+@media (min-width: 576px) {
+    main {
+        padding: 2rem 2rem;
+    }
+
     .main__grid-item {
         padding: 1.2rem 1rem;
     }
@@ -29,3 +101,13 @@ main {
     }
 
 }
+
+@media (min-width: 992px) {
+    main {
+        padding: 0.5rem 7rem;
+    }
+    .main__grid-item {
+        padding: 1.2rem 1rem;
+    }
+}
+

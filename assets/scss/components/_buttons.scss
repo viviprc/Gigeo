@@ -16,8 +16,14 @@
 .primero {
     background-color: $turquesa;
 }
+.primero:hover {
+    background-color: #5dc1b9 ;
+}
 .segundo {
     background-color: $rosa-oscuro;
+}
+.segundo:hover {
+    background-color: #fc1c32 ;
 }
 
 @media (max-width: 768px) {
