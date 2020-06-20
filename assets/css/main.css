@@ -9946,7 +9946,7 @@ h3 {
 h5 {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.063rem;
   color: #756b6b;
 }
 
@@ -9968,6 +9968,96 @@ h5 {
 
   h5 {
     font-size: 0.938rem;
+  }
+}
+/*Navbar*/
+/*Navbar*/
+#Navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 0.5rem 3.2rem;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+a .nav-link {
+  padding: 8 20px;
+}
+
+sup {
+  top: 1em;
+  vertical-align: top;
+}
+
+.fa-search {
+  color: #000000;
+  animation-name: nav-color;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+}
+
+.fa-video {
+  color: #000000;
+  animation-name: nav-color;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+}
+
+.fa-plus {
+  color: #000000;
+  animation-name: nav-color;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+}
+
+.fa-bell {
+  color: #000000;
+  animation-name: nav-color;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+}
+
+.fa-bars {
+  color: #000000;
+  animation-name: nav-color;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes nav-color {
+  from {
+    color: #000000;
+  }
+  to {
+    color: #8f8f8f;
+  }
+}
+@media (min-width: 576px) {
+  .navbar {
+    padding: 0.5rem 2rem;
+  }
+}
+@media (min-width: 576px) and (min-width: 768px) {
+  .navbar {
+    padding: 0.5rem 3.2rem;
+  }
+}
+@media (min-width: 576px) and (min-width: 992px) {
+  .navbar {
+    padding: 0.5rem 7rem;
   }
 }
 /*Botones*/
@@ -10004,52 +10094,6 @@ h5 {
 @media (max-width: 768px) {
   .section__buttons {
     display: none;
-  }
-}
-/*Navbar*/
-#Navbar {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.navbar {
-  padding: 0.5rem 3.2rem;
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-a .nav-link {
-  padding: 8 20px;
-}
-
-sup {
-  top: 1em;
-  vertical-align: top;
-}
-
-@media (min-width: 576px) {
-  .navbar {
-    padding: 0.5rem 2rem;
-  }
-}
-@media (min-width: 576px) and (min-width: 768px) {
-  .navbar {
-    padding: 0.5rem 3.2rem;
-  }
-}
-@media (min-width: 576px) and (min-width: 992px) {
-  .navbar {
-    padding: 0.5rem 7rem;
   }
 }
 /*Header*/

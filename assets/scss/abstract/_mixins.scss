@@ -19,3 +19,10 @@
     width: 100%;
     height: 200px;   
 }
+
+@mixin iconos-nav {
+    color: $negro;
+    animation-name: nav-color;
+    animation-duration: 6s;
+    animation-direction: alternate-reverse;
+}

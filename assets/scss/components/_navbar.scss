@@ -1,5 +1,7 @@
 /*Navbar*/
 
+/*Navbar*/
+
 #Navbar {
     display: flex;
     position: fixed;
@@ -28,6 +30,27 @@ a .nav-link {
 sup {
     top: 1em;
     vertical-align: top;
+}
+
+.fa-search {
+   @include iconos-nav
+}
+.fa-video {
+    @include iconos-nav
+}
+.fa-plus {
+    @include iconos-nav
+}
+.fa-bell {
+    @include iconos-nav
+}
+.fa-bars {
+    @include iconos-nav
+}
+
+@keyframes nav-color {
+    from {color: $negro;}
+    to {color: $gris-claro;}
 }
 
 @media (min-width: 576px) {
